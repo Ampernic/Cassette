@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'master'  # Запускать workflow только для веток разработки
+  pull_request:
 
 jobs:
   lint:
